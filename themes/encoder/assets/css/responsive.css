@@ -1,0 +1,84 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1199px) {}
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    ul.contact-details {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    ul.social-list {
+        float: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    li.nav-after-padding a::after {
+        background: #fff;
+    }
+    #main-slide .slider-content h2 {
+        font-size: 28px;
+    }
+
+    #main-slide .slider-content h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+    .v-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 55%;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+    .top-bar .contact-details li a:before {
+        content: "";
+    }
+    
+    #main-slide .slider-content h2 {
+        font-size: 23px;
+    }
+    #main-slide .slider-content h3 {
+        font-size: 16px;
+        margin: 0;
+    }
+    .v-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 80%;
+    }
+    #main-slide .carousel-control i {
+        line-height: 7px;
+        font-size: 20px;
+        padding: 14px 13px;
+    }
+}
+/*  Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) { 
+    .top-bar .contact-details li a:before {
+        content: "";
+    }
+    #main-slide .slider-content h2 {
+        font-size: 20px;
+    }
+    #main-slide .slider-content h3 {
+        font-size: 16px;
+        margin: 0;
+    }
+    .hovereffect img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+}
+
+
+
+
+
+
